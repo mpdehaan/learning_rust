@@ -48,26 +48,27 @@ fn test_div_by_fifteen() {
    }
 }
 
+fn fizzbuzz(num : int) -> String {
+    if div_by_fifteen(num) {
+        "FizzBuzz".to_string()
+    }
+    else if div_by_three(num) {
+        "Fizz".to_string()
+    }
+    else if div_by_five(num) {
+        "Buzz".to_string()
+    }
+    else {
+        "".to_string()
+    }
+}
+
 fn main() {
    for num in range(1i, 100) {
 
-      let answer =
-          if div_by_fifteen(num) {
-              "FizzBuzz".to_string()
-          }
-          else if div_by_three(num) {
-              "Fizz".to_string()
-          }
-          else if div_by_five(num) {
-              "Buzz".to_string()
-          }
-          else {
-              "".to_string()
-          };
-
-      
-
+      let answer = fizzbuzz(num);  
       println!("{} {}", num, answer);
+
    }
 }
 
