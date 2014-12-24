@@ -50,7 +50,7 @@ fn test_div_by_fifteen() {
 fn main() {
    for num in range(1i, 100) {
 
-      let mut answer =
+      let answer =
           if div_by_fifteen(num) {
               "FizzBuzz";
           }
