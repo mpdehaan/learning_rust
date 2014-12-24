@@ -1,11 +1,11 @@
+fn plus_one(x: Box<int>) -> int {
+   *x + 1
+}
+
 fn main() {
 
-    // box creates an 'owned' pointer, there can be only one
-    let x = box 10i;
+    let y = box 10i;
 
-    // this makes a copy of the number 10, it's not the same one.
-    let y = x.clone();
-
-    println!("{}", *x);
+    println!("{}", plus_one(y));
 
 }
