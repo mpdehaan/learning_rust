@@ -19,6 +19,7 @@ fn test_div_by_three() {
    if !div_by_three(3) {
        panic!("Three is divisible by three")
    }
+   assert!(div_by_three(33))
 }
 
 #[test]
@@ -63,6 +64,8 @@ fn main() {
           else {
               "".to_string()
           };
+
+      
 
       println!("{} {}", num, answer);
    }
