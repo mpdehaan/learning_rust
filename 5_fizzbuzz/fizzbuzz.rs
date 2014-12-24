@@ -1,10 +1,6 @@
 
 fn div_by_three(num: int) -> bool {
-   if num % 3 == 0 {
-      true
-   } else {
-      false
-   }
+   num % 3 == 0
 }
 
 #[test]
