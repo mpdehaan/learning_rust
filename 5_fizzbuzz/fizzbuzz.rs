@@ -15,7 +15,7 @@ fn test_div_by_three() {
 
 fn main() {
    for num in range(1i, 100) {
-      println!("num")
+      println!("{}", num)
    }
 }
 
