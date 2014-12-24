@@ -64,8 +64,7 @@ fn main() {
               ""
           };
 
-      println!("{}", num);
-      println!("{}", answer);
+      println!("{} {}", num, answer);
    }
 }
 
