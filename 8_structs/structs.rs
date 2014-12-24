@@ -4,6 +4,11 @@ struct Monster {
 }
 
 impl Monster {
+
+    fn new(health: int, attack: int) -> Monster {
+        Monster { health:health, attack:attack }
+    }
+
     fn attack(&self) {
         println!("The monster attacks for {} damage.", self.attack);
     }
@@ -16,7 +21,7 @@ impl Monster {
 
 fn main() {
 
-    let m = Monster { health: 10, attack: 20 };
+    let m = Monster::new(20,40);
 
     m.attack();
     Monster::foo();
