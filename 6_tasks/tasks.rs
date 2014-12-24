@@ -37,8 +37,5 @@ fn main () {
 
     let result = guard.join();
 
-    if (result != 2) {
-        // FIXME: compiler says I must pay attention to this value 
-    }
 
 }
