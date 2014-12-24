@@ -1,3 +1,6 @@
+// NOTE: the RustsForRubyists stuff about Enums is incomplete - research them later.
+// brought up WRT inheritance alternatives
+
 struct Monster {
     health: int,
     attack: int
