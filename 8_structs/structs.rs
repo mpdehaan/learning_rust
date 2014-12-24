@@ -3,12 +3,18 @@ struct Monster {
     attack: int
 }
 
+impl Monster {
+    fn attack(&self) {
+        println!("The monster attacks for {} damage.", self.attack);
+    }
+}
+
 fn main() {
 
     let m = Monster { health: 10, attack: 20 };
 
-    println!("{}", m.health.to_string());
-    println!("{}", m.attack.to_string());
+    m.attack();
+
 
 }
 
