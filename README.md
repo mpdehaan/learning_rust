@@ -1,7 +1,7 @@
 Notes
 =====
 
-Just my scratch space while learning Rust.
+Just my scratch space while learning Rust (WIP, Christmas break 2014, etc)
 
 Rusts for Rubyists
 ==================
@@ -10,6 +10,7 @@ Good tutorial:
 
 * http://www.rustforrubyists.com
 
-It was written against an older version, so I've adapted examples as I go to remove
-deprecation warnings and account for changing syntax.
+It was written against an older version, so I'm adapting some examples as I go to remove
+deprecation warnings and account for changing syntax, and doing some other things here and
+there.
 
