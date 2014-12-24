@@ -4,6 +4,10 @@ fn main() {
     fizzbuzz_to(100);
 }
 
+// `#[allow(dead_code)]` is an attribute that disables the `dead_code` lint
+#[allow(dead_code)]
+fn unused_function() {}
+
 // Function that returns a boolean value
 fn is_divisible_by(lhs: uint, rhs: uint) -> bool {
     // Corner case, early return
