@@ -52,20 +52,20 @@ fn main() {
 
       let answer =
           if div_by_fifteen(num) {
-              "FizzBuzz";
+              "FizzBuzz"
           }
           else if div_by_three(num) {
-              "Fizz";
+              "Fizz"
           }
           else if div_by_five(num) {
-              "Buzz";
+              "Buzz"
           }
           else {
-              "";
+              ""
           };
 
-      println!("{} {}", num, answer)
-
+      println!("{}", num);
+      println!("{}", answer);
    }
 }
 
