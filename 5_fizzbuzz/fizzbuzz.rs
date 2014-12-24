@@ -52,16 +52,16 @@ fn main() {
 
       let answer =
           if div_by_fifteen(num) {
-              "FizzBuzz"
+              "FizzBuzz".to_string()
           }
           else if div_by_three(num) {
-              "Fizz"
+              "Fizz".to_string()
           }
           else if div_by_five(num) {
-              "Buzz"
+              "Buzz".to_string()
           }
           else {
-              ""
+              "".to_string()
           };
 
       println!("{} {}", num, answer);
