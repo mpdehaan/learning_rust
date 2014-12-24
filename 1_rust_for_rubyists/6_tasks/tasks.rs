@@ -8,7 +8,7 @@ fn plus_one(sender: &Sender<int>, receiver: &Receiver<int>) {
 
         if value == -1 {
            // FIXME: probably just want an exit here, so look it up
-           panic!("I'm done")
+           break;
         }
 
         sender.send(value + 1);
