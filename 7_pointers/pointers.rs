@@ -2,8 +2,10 @@ fn main() {
 
     // box creates an 'owned' pointer, there can be only one
     let x = box 10i;
-    // we can't do: let y = x;
-    let y = x;
+
+    // this makes a copy of the number 10, it's not the same one.
+    let y = x.clone();
+
     println!("{}", *x);
 
 }
