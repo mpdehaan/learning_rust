@@ -49,7 +49,23 @@ fn test_div_by_fifteen() {
 
 fn main() {
    for num in range(1i, 100) {
-      println!("{}", num)
+      let mut answer = "";
+
+      if div_by_fifteen(num) {
+          answer = "FizzBuzz";
+      }
+      else if div_by_three(num) {
+          answer = "Fizz";
+      }
+      else if div_by_five(num) {
+          answer = "Buzz";
+      }
+      else {
+          answer = "";
+      }
+
+      println!("{} {}", num, answer)
+
    }
 }
 
