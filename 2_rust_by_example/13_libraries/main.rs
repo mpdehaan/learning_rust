@@ -1,3 +1,5 @@
+# note: this is static linking
+
 // executable.rs
 // Link to `liberty`, import items under the `erty` module
 extern crate erty;
